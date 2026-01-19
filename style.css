@@ -1,0 +1,67 @@
+body { box-sizing: border-box; }
+
+/* navber part */
+.nav{ display: flex; justify-content: space-between; max-width: 1600px; 
+     align-items: center; padding: 16px 200px; margin: 0 auto; background-color: #1A0B2E;}
+
+
+     /* list part */
+     .list{ display: flex; justify-content: center; gap: 32px;}
+     /* logo part */
+     h3{ font-size: 2rem; color: #ffffff; text-transform: capitalize; text-align: left;}
+/* span part */
+     .span{ color: rgb(231, 51, 231); text-transform: capitalize;font-size: 2rem;}
+     /*  link part */
+     .list a{ color: #ffffff; text-transform: capitalize; text-decoration: none;font-size: 16px;}
+/* hover  */
+.list a:hover{ background-color: aqua; color: black; padding: 5px 10px; border-radius: 16px;}
+
+     .list li{ list-style: none;}
+
+     /* button  */
+     .btn{ padding: 12px 16px; font-size: 16px;
+         border-radius: 20px;
+          color: #ffffff; background-image:linear-gradient(to bottom left, rgb(65, 5, 65),rgb(236, 11, 169),rgb(252, 252, 56))  }
+
+
+
+
+
+
+
+
+          /* for small device */
+          @media screen and (max-width:576px) {
+
+
+            .nav-container{ display: flex;  align-items: center; width: 100%;  
+
+                justify-content: space-between; 
+
+}
+
+
+
+.nav{ width: 100%;  padding: 5px; display: block; }
+
+h3{ margin-left: 8px;}
+             .hamberger-icon{ color: #ffffff; font-size: 1.5rem;
+                 margin-right: 8px; display: block;}
+            .list{ display: none;}
+            .btn{ display: none;}
+          }
+
+          /* for middle level device */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+
+    .nav{ flex-direction: column;}
+}
+
+          /* large device*/
+          @media screen and (min-width: 992px){
+            
+.hamberger-icon{ display: none;}
+
+          }
