@@ -8,7 +8,7 @@ body { box-sizing: border-box; }
      /* list part */
      .list{ display: flex; justify-content: center; gap: 32px;}
      /* logo part */
-     h3{ font-size: 2rem; color: #ffffff; text-transform: capitalize; text-align: left;}
+     h3{ font-size: 2rem; color: #ffffff; text-transform: capitalize; text-align: left; }
 /* span part */
      .span{ color: rgb(231, 51, 231); text-transform: capitalize;font-size: 2rem;}
      /*  link part */
@@ -19,10 +19,49 @@ body { box-sizing: border-box; }
      .list li{ list-style: none;}
 
      /* button  */
-     .btn{ padding: 12px 16px; font-size: 16px;
-         border-radius: 20px;
+     .btn{ padding: 12px 16px; font-size: 18px;
+         border-radius: 20px; text-align: center;
           color: #ffffff; background-image:linear-gradient(to bottom left, rgb(65, 5, 65),rgb(236, 11, 169),rgb(252, 252, 56))  }
 
+/* hero part */
+.hero{ background-image: url(./assets/hero-bg.png);  max-width: 1600px; 
+    background-size: cover; margin: 0 auto;  text-align: center; position: relative;
+    border: 2px solid red; height: auto; background-position: center; width: 100%;
+    background-repeat: no-repeat;}
+    
+.circle-img{ margin-top: 40px;}
+     .img2{ position:absolute; top: 124px; right: 610px; } 
+     h2{ text-transform: capitalize; font-size: 4rem; font-weight: 900;
+        margin: 40px auto 0px;
+        color: #ffffff;}
+/* hero-container */
+
+
+
+.hero p{ font-size: 16px;font-weight: 400;
+     text-transform: capitalize; color: rgb(150, 141, 141);
+ margin-top: 0px; 
+
+}
+/* button-2 */
+
+
+.hero-button{ padding-bottom: 60px;}
+.btn2{ text-align: center;color: greenyellow;  border-radius: 15px; font-size: 18px;
+    border: 2px solid rgb(177, 30, 235); background-color: #1A0B2E;
+     padding: 10px 16px;}
+ .btn1{ padding: 12px 16px; font-size: 18px;border: 2px solid rgb(51, 231, 35);
+         border-radius: 20px; text-align: center;
+          color: #ffffff; background-image:linear-gradient(to bottom left, rgb(65, 5, 65),rgb(236, 11, 169),rgb(252, 252, 56)) }
+.btn2:hover{ background-color: rgb(233, 90, 126); color: rgb(11, 10, 12);}
+/* animation */
+.microphone{ transform: rotate(360deg);  transition: transform 0.5s ease-in-out; display: inline-block;}
+/*  new  icon */
+.hero h4{ background-color: rgb(43, 223, 43); border-radius: 15px; font-size: 1.25rem;
+    
+     width: 70px;height: 30px; text-align: center; margin:  0  auto; border: 1px solid white;
+    
+    color: black; position: absolute; right: 548px; top: 50px;}
 
 
 
@@ -36,9 +75,9 @@ body { box-sizing: border-box; }
 
             .nav-container{ display: flex;  align-items: center; width: 100%;  
 
-                justify-content: space-between; 
+                justify-content: space-between; }
 
-}
+
 
 
 
@@ -49,7 +88,38 @@ h3{ margin-left: 8px;}
                  margin-right: 8px; display: block;}
             .list{ display: none;}
             .btn{ display: none;}
-          }
+
+/* hero part */
+
+.hero h2{ font-size: 2rem;}
+.hero p{ font-size: 14px;}
+ .hero { position: relative;}
+
+ .circle-img {
+        width: 200px; 
+        margin-top: 60px;
+    }
+.hero,.new {
+        position: absolute;
+        
+        left: 50%;
+        transform: translateX(-50%);
+         right:15%    
+        z-index: 10;
+    }
+    .img2 {
+        position: absolute; 
+     
+        left: 50%;
+        transform: translateX(-50%);
+         
+    }
+ .img2 ,.microphone{ width: 60px; }
+
+
+
+
+}
 
           /* for middle level device */
 
@@ -57,6 +127,21 @@ h3{ margin-left: 8px;}
 
 
     .nav{ flex-direction: column;}
+
+/* hero part */
+
+.hero{ position: relative;}
+
+.circle-img{ width: 220px;}
+.hero , .new{  position: absolute;
+    left: 50%; transform: translateX(-50%); z-index: 10;}
+
+.img2 {position: absolute;
+    left: 50%; transform: translateX(-50%);right: -300px;}
+
+.img2, .microphone{  width: 60px; }
+
+
 }
 
           /* large device*/
