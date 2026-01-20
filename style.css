@@ -26,7 +26,7 @@
 /* hero part */
 .hero{ background-image: url(./assets/hero-bg.png);  max-width: 1600px; 
     background-size: cover; margin: 0 auto;  text-align: center; position: relative;
-    border: 2px solid red; height: auto; background-position: center; width: 100%;
+    border: 2px solid rgb(177, 22, 216); height: auto; background-position: center; width: 100%;
     background-repeat: no-repeat;}
     
 .circle-img{ margin-top: 40px;}
@@ -64,6 +64,95 @@
     color: black; position: absolute; right: 42%; top: 50px;}
 
 
+/* views part */
+.views-part{  background-color: #1A0B2E; max-width:1600px ;  border: #a93de7 solid  2px;
+     padding: 50px 200px 120px; text-align: center;}
+
+.main-titel h1{ font-size: 3rem; font-weight: 800; color: #FFFFFF;  margin-bottom: 10px; }
+.main-titel p{ font-size: 1rem; font-weight:400; line-height: 30px;
+      color: #d4c2c2; text-align: center;}
+
+.views{  display: grid;  grid-template-columns: repeat(4,1fr); margin-top: 80px; gap: 35px; }
+
+.views h3{ color: #00FF88; font-size: 3rem;}
+.views p{ color: #b1a7a7; font-size: 1rem;}
+
+
+/* choose part */
+.section3{ background-color: #230E3D; max-width: 1600px; padding: 120px 200px;}
+
+.why-choose{ font-size: 3rem; font-weight: 800; color: #FFFFFF; margin-bottom: 40px;}
+
+
+.cause-of-choose h3{ font-size: 1.5rem; font-weight: 400; color: #FFFFFF;}
+.cause-of-choose p{ font-size: .9rem; font-weight: 400; color: #d6cccc; line-height: 24px; 
+
+
+
+
+text-align: justify; margin-top: 10px;}
+
+
+
+/* choose part img 
+
+
+/* choose grid */
+
+
+.cause1{ grid-area: cause1; background: #351165;  
+    border-radius: 40px; padding: 100px 40px; width: 100%;}
+.cause2{ grid-area: cause2;background: #351165; width: 100%;
+     border-radius: 40px; padding: 40px 40px;}
+.cause3{ grid-area: cause3;background: #351165;  width: 100%;
+    border-radius: 40px; padding: 40px 40px;}
+.cause4{ grid-area: cause4;background: #351165;  width: 100%;
+    border-radius: 40px;padding: 40px 40px;}
+.cause5{ grid-area: cause5;background: #351165;  width: 100%;
+    border-radius: 40px;padding: 40px 40px;}
+
+.cause-of-choose{   display: grid; justify-content: center; 
+grid-template-columns: repeat(3,1fr);
+column-gap: 30px; row-gap: 30px;
+    grid-template-areas: "cause1 cause2 cause2 " 
+    
+                        "cause1 cause3 cause3"
+                        " cause4 cause4  cause5";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -99,7 +188,7 @@ h3{ margin-left: 8px;}
         width: 170px; 
         margin-top: 60px; display: block;
     }
-.hero , .new {
+.new {
         position: absolute;
         
         left: 50%;
@@ -115,6 +204,60 @@ h3{ margin-left: 8px;}
          
     }
  .img2 ,.microphone{ width: 60px;   }
+/*  views part */
+.main-titel h1 { font-size: 2.3rem; width: 90%; padding: 6px; margin-top: 10px;}
+.main-titel p { font-size: .8rem; width: 80%; line-height: 16px
+    ; text-align: center; padding:0px 6px; overflow-wrap: normal;}
+
+.views-part{ padding: 0px;}
+
+/* grid part */
+.views{  display: grid;  grid-template-columns: repeat(2,1fr); width: 90%; 
+      column-gap: 20px; row-gap: 20px;  padding-bottom: 30px;} 
+
+.views h3{ font-size: 2rem;}
+.views p{ font-size: .8rem;}
+/* choose part */
+
+.cause-of-choose{   display: grid; justify-content: center; 
+grid-template-columns: repeat(1,1fr);
+column-gap: 10px; row-gap: 20px; 
+ grid-template-areas: "cause1  " 
+                        " cause2 "
+                        " cause3" 
+                        "cause4"
+                        "cause5"
+                        ;
+} 
+    
+.cause1,.cause2,.cause3,.cause4 ,.cause5{ width: 90%; }
+
+
+.section3{ background-color: #230E3D;  padding: 0px;}
+
+.why-choose{ font-size: 1.25rem; font-weight: 400; color: #FFFFFF; padding: 30px; text-align: center;}
+
+
+.cause-of-choose h3{ font-size: 1rem; font-weight: 400; color: #FFFFFF; margin-top: 10px;}
+.cause-of-choose p{ font-size: .7rem; font-weight: 400; color: #cfbfbf; line-height: 24px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -137,13 +280,70 @@ h3{ margin-left: 8px;}
 .hero{ position: relative;}
 
 .circle-img{ width: 220px;}
-.hero , .new{  position: absolute;
+ .new{  position: absolute;
     left: 50%; transform: translateX(-50%); z-index: 10;}
 
 .img2 {position: absolute;
     left: 50%; transform: translate(-50%, -60%);}
 
 .img2, .microphone{  width: 60px; }
+
+
+
+
+/* views */
+.views-part{ padding: 0px;}
+
+.views{  display: grid;  grid-template-columns: repeat(4,1fr); width: 90%; 
+      column-gap: 10px; row-gap: 15px;  padding-bottom: 30px;} 
+      .main-titel h1 { font-size: 2.7rem; width: 90%; padding: 6px; margin-top: 10px;}
+.main-titel p { font-size: 1rem; width: 90%; line-height: 16px
+    ; text-align: center; padding:0px 6px; overflow-wrap: normal;}
+
+
+/* choose part */
+
+.cause-of-choose{   display: grid; justify-content: center; 
+grid-template-columns: repeat(2,1fr);
+column-gap: 10px; row-gap: 20px; 
+ grid-template-areas: "cause1  cause2 " 
+                        "cause3  cause4 "
+                        "cause5 cause5"
+                        ;
+} 
+    
+.cause1,.cause2,.cause3,.cause4 ,.cause5{ width: 90%; }
+
+
+.section3{ background-color: #230E3D;  padding: 0px;}
+
+.why-choose{ font-size: 1.25rem; font-weight: 400; color: #FFFFFF; padding: 30px; text-align: center;}
+
+
+.cause-of-choose h3{ font-size: 1rem; font-weight: 400; color: #FFFFFF; margin-top: 10px;}
+.cause-of-choose p{ font-size: .7rem; font-weight: 400; color: #cfbfbf; line-height: 24px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
