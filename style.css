@@ -81,7 +81,7 @@
 /* choose part */
 .section3{ background-color: #230E3D; max-width: 1600px; padding: 120px 200px;}
 
-.why-choose{ font-size: 3rem; font-weight: 800; color: #FFFFFF; margin-bottom: 40px;}
+.why-choose{ font-size: 2.8rem; font-weight: 800; color: #FFFFFF; margin-bottom: 40px;}
 
 
 .cause-of-choose h3{ font-size: 1.5rem; font-weight: 400; color: #FFFFFF;}
@@ -120,27 +120,31 @@ column-gap: 30px; row-gap: 30px;
                         " cause4 cause4  cause5";
 }
 
+/* features part */
+
+
+.section4{ max-width: 1600px; background-color: #1A0B2E; padding: 120px 200px;}
+
+/* features h1 */
+.features{ font-size: 3rem; font-weight: 900; color: #FFFFFF; margin-bottom: 15px; text-align: center;} 
+
+/* card */
+.card1,.card2,.card3{ background-color: #250D44;  padding: 0px 15px;}
+
+
+.youtube-card{ display: flex; justify-content: center; gap: 20px; }
+
+.youtube-card  h4{ font-size: 1.5rem; color: #FFFFFF;  margin: 10px 0px;}
+
+.youtube-card p{ font-size: 1.25rem; color: #a09d9d; 
+     line-height: 30px; margin-bottom: 20px;}
+
+/* clock img */
+ .circle-img{ display: flex; justify-content: center; align-items: center; padding: 14px;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.time{ color: #00FF88; font-size: 1rem;}
 
 
 
@@ -243,6 +247,33 @@ column-gap: 10px; row-gap: 20px;
 
 
 
+/* youtube vedio link */
+.section4{  background-color: #1A0B2E;  padding: 80px 10px; margin: 0 auto;}
+
+/* features h1 */
+.features{ font-size: 1.0rem; font-weight: 500; color: #FFFFFF; margin-bottom: 15px; text-align: center;} 
+
+/* card */
+.card1,.card2,.card3{ background-color: #250D44;   width: 100%; 
+
+padding: 5px 20px;}
+
+
+.youtube-card{ display: flex; flex-direction: column; gap: 20px;  flex-wrap: wrap; align-items: center;}
+
+.youtube-card  h4{ font-size: 1.0rem; color: #FFFFFF;  margin: 15px 0px;}
+
+.youtube-card p{ font-size: .8rem; color: #a09d9d; padding: 0px 6px;
+     line-height: 20px; margin-bottom: 5px;}
+
+/* clock img 
+ .circle-img{ display: flex; justify-content: center; align-items: center; padding: 14px;}
+*/
+
+
+.time{ color: #00FF88; font-size: 1rem;}
+
+iframe{ width: 100%; height: 50vh;}
 
 
 
@@ -323,7 +354,29 @@ column-gap: 10px; row-gap: 20px;
 .cause-of-choose h3{ font-size: 1rem; font-weight: 400; color: #FFFFFF; margin-top: 10px;}
 .cause-of-choose p{ font-size: .7rem; font-weight: 400; color: #cfbfbf; line-height: 24px; }
 
+/* features part */
+.section4{ max-width: 1600px; background-color: #1A0B2E; padding: 80px 20px;}
 
+/* features h1 */
+.features{ font-size: 2rem; font-weight: 500; color: #FFFFFF; margin-bottom: 15px;} 
+
+/* card */
+.card1,.card2,.card3{ background-color: #250D44;  padding: 0px 15px; }
+
+
+.youtube-card{ display: flex; justify-content: center; gap: 20px;  flex-direction: column;}
+
+.youtube-card  h4{ font-size: 1.5rem; color: #FFFFFF;  margin: 10px 0px;}
+
+.youtube-card p{ font-size: 1.0rem; color: #a09d9d; 
+     line-height: 30px; margin-bottom: 20px;}
+
+/* clock img */
+ .circle-img{ display: flex; justify-content: center; align-items: center; padding: 14px;}
+
+
+
+.time{ color: #00FF88; font-size: 1rem;}
 
 
 
