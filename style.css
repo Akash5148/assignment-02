@@ -1,4 +1,4 @@
-body { box-sizing: border-box; }
+*{ box-sizing: border-box; margin:  0 auto; }
 
 /* navber part */
 .nav{ display: flex; justify-content: space-between; max-width: 1600px; 
@@ -30,7 +30,7 @@ body { box-sizing: border-box; }
     background-repeat: no-repeat;}
     
 .circle-img{ margin-top: 40px;}
-     .img2{ position:absolute; top: 124px; right: 610px; } 
+     .img2{ position:absolute; left: 49%;top: 32%; transform: translate(-50%, -50%); width: 80px;} 
      h2{ text-transform: capitalize; font-size: 4rem; font-weight: 900;
         margin: 40px auto 0px;
         color: #ffffff;}
@@ -40,7 +40,7 @@ body { box-sizing: border-box; }
 
 .hero p{ font-size: 16px;font-weight: 400;
      text-transform: capitalize; color: rgb(150, 141, 141);
- margin-top: 0px; 
+ margin: 15px 0px; 
 
 }
 /* button-2 */
@@ -61,7 +61,7 @@ body { box-sizing: border-box; }
     
      width: 70px;height: 30px; text-align: center; margin:  0  auto; border: 1px solid white;
     
-    color: black; position: absolute; right: 548px; top: 50px;}
+    color: black; position: absolute; right: 42%; top: 50px;}
 
 
 
@@ -92,29 +92,29 @@ h3{ margin-left: 8px;}
 /* hero part */
 
 .hero h2{ font-size: 2rem;}
-.hero p{ font-size: 14px;}
+.hero p{ font-size: 14px; margin: 10px 0px;}
  .hero { position: relative;}
 
  .circle-img {
-        width: 200px; 
-        margin-top: 60px;
+        width: 170px; 
+        margin-top: 60px; display: block;
     }
-.hero,.new {
+.hero , .new {
         position: absolute;
         
         left: 50%;
         transform: translateX(-50%);
-         right:15%    
-        z-index: 10;
+          right:-15px ;   
+       
     }
     .img2 {
         position: absolute; 
-     
-        left: 50%;
-        transform: translateX(-50%);
+   
+         left: 50%;   
+         transform: translate(-50%, -50%);  z-index: 5; 
          
     }
- .img2 ,.microphone{ width: 60px; }
+ .img2 ,.microphone{ width: 60px;   }
 
 
 
@@ -128,6 +128,10 @@ h3{ margin-left: 8px;}
 
     .nav{ flex-direction: column;}
 
+    .list{ margin: 10px;}
+
+    .btn{ margin: 10px;}
+
 /* hero part */
 
 .hero{ position: relative;}
@@ -137,7 +141,7 @@ h3{ margin-left: 8px;}
     left: 50%; transform: translateX(-50%); z-index: 10;}
 
 .img2 {position: absolute;
-    left: 50%; transform: translateX(-50%);right: -300px;}
+    left: 50%; transform: translate(-50%, -60%);}
 
 .img2, .microphone{  width: 60px; }
 
